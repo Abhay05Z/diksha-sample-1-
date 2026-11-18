@@ -23,8 +23,8 @@ export function MaisonHome() {
       <div className="hub-bar">Showroom open daily · {business.hours.label} · Vidyadhar Nagar, Jaipur</div>
       <header className="hub-top">
         <Link href={conceptPath(concept)} className="hub-logo">
-          <b>DIKSHA</b>
-          <span>JEWELLERS</span>
+          <b>SAMPLE</b>
+          <span>STORE</span>
         </Link>
         <form className="hub-search" action={conceptPath(concept, "/search")}>
           <input name="q" aria-label="Search" placeholder="Search" />
@@ -56,7 +56,7 @@ export function MaisonHome() {
           <div>
             <p className={`${script.className} text-7xl leading-none md:text-8xl`}>Luxury</p>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-[#6d6258]">
-              Jewellery That Becomes Your Legacy. Discover timeless expressions of elegance at Diksha Jewellers.
+              Jewellery That Becomes Your Legacy. Discover timeless expressions of elegance at Jewellery Store Sample.
             </p>
           </div>
         </div>

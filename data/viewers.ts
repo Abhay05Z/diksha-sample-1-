@@ -33,5 +33,5 @@ export const demoModel = {
   sourceUrl: "https://grab3d.com/models/props/ring/",
   license: "CC0 1.0",
   label:
-    "CC0 demonstration file. It is a small stylised ring from Grab3D, not a Diksha Jewellers piece and not a photograph.",
+    "CC0 demonstration file. It is a small stylised ring from Grab3D, not a Jewellery Store Sample piece and not a photograph.",
 };

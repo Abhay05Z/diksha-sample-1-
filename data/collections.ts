@@ -17,7 +17,7 @@ export const collections: Collection[] = [
     image: "/assets/products/gold-flatlay.webp",
     imageAlt: "Sample gold necklace, earrings, bracelet and ring arranged together.",
     intro:
-      "Gold jewellery is part of the public description of Diksha Jewellers. These photographs are sample studies for the website. They are not a list of what is in the showroom today.",
+      "Gold jewellery is part of the public description of Jewellery Store Sample. These photographs are sample studies for the website. They are not a list of what is in the showroom today.",
   },
   {
     slug: "diamond",

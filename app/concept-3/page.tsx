@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "The Modern Atelier",
-  description: "A minimal cream boutique presentation of Diksha Jewellers in Vidyadhar Nagar, Jaipur.",
+  description: "A minimal cream boutique presentation of Jewellery Store Sample in Vidyadhar Nagar, Jaipur.",
   path: "/concept-3",
 });
 

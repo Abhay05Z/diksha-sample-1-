@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const collection = getCollection(slug);
   return pageMeta({
     title: collection?.name ?? "Collection",
-    description: collection?.intro ?? "A jewellery collection at Diksha Jewellers, Jaipur.",
+    description: collection?.intro ?? "A jewellery collection at Jewellery Store Sample, Jaipur.",
     path: `/concept-1/collections/${slug}`,
   });
 }

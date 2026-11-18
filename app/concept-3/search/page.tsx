@@ -5,7 +5,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Search",
-  description: "Search the sample jewellery catalogue for Diksha Jewellers, Jaipur.",
+  description: "Search the sample jewellery catalogue for Jewellery Store Sample, Jaipur.",
   path: "/concept-3/search",
 });
 

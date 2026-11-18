@@ -4,7 +4,7 @@ export function MapEmbed() {
   return (
     <iframe
       className="map-frame"
-      title="Map of Diksha Jewellers, Vidyadhar Nagar, Jaipur"
+      title="Map of Jewellery Store Sample, Vidyadhar Nagar, Jaipur"
       src={business.mapsEmbed}
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"

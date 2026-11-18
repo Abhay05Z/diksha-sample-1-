@@ -19,7 +19,7 @@ export default function OpenGraphImage() {
         }}
       >
         <div style={{ display: "flex", letterSpacing: 6, color: "#c5a46d", fontSize: 22 }}>VIDYADHAR NAGAR · JAIPUR</div>
-        <div style={{ display: "flex", fontSize: 84, lineHeight: 1, marginTop: 18 }}>Diksha Jewellers</div>
+        <div style={{ display: "flex", fontSize: 84, lineHeight: 1, marginTop: 18 }}>Jewellery Store Sample</div>
         <div style={{ display: "flex", fontSize: 28, color: "#d9d0c6", marginTop: 18 }}>Gold, silver and diamond jewellery</div>
       </div>
     ),

@@ -18,7 +18,7 @@ export function AtelierHome() {
     <div className="bg-[#f7f4ee] text-[#37332f]">
       <header className="flex items-center justify-between px-6 py-5">
         <Link href={conceptPath(concept)} className="text-sm tracking-[0.28em]">
-          DIKSHA
+          SAMPLE
         </Link>
         <Link href={conceptPath(concept, "/contact")} className="text-xs tracking-[0.16em]">
           VISIT JAIPUR

@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Noir Luxe",
-  description: "A cinematic black and warm-ivory presentation of Diksha Jewellers, Jaipur, with gold, silver and diamond jewellery studies.",
+  description: "A cinematic black and warm-ivory presentation of Jewellery Store Sample, Jaipur, with gold, silver and diamond jewellery studies.",
   path: "/concept-2",
 });
 

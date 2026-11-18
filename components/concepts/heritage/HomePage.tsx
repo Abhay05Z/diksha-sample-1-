@@ -19,8 +19,8 @@ export function HeritageHome() {
     <div className="bg-[#f6f0e5] text-[#50382b]">
       <header className="flex items-end justify-between bg-[#451c25] px-5 py-4 text-[#f6f0e5]">
         <Link href={conceptPath(concept)}>
-          <span className="block font-display text-3xl italic">Diksha</span>
-          <span className="text-[0.62rem] tracking-[0.32em] text-[#e4c98a]">JEWELLERS</span>
+          <span className="block font-display text-3xl italic">Sample</span>
+          <span className="text-[0.62rem] tracking-[0.32em] text-[#e4c98a]">STORE</span>
         </Link>
         <p className="m-0 text-xs tracking-[0.14em]">{business.address.area}</p>
       </header>

@@ -7,7 +7,7 @@ const concepts = [
     home: "MaisonHome",
     from: "@/components/concepts/maison/HomePage",
     title: "The Royal Maison",
-    description: "A timeless ivory and champagne presentation of Diksha Jewellers, a jewellery showroom in Vidyadhar Nagar, Jaipur.",
+    description: "A timeless ivory and champagne presentation of Jewellery Store Sample, a jewellery showroom in Vidyadhar Nagar, Jaipur.",
     fonts: `import { Cormorant_Garamond, Jost } from "next/font/google";
 
 const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display-face", display: "swap" });
@@ -18,7 +18,7 @@ const body = Jost({ subsets: ["latin"], weight: ["400", "500", "600"], variable:
     home: "NoirHome",
     from: "@/components/concepts/noir/HomePage",
     title: "Noir Luxe",
-    description: "A cinematic black and warm-ivory presentation of Diksha Jewellers, Jaipur, with gold, silver and diamond jewellery studies.",
+    description: "A cinematic black and warm-ivory presentation of Jewellery Store Sample, Jaipur, with gold, silver and diamond jewellery studies.",
     fonts: `import { Bodoni_Moda, Manrope } from "next/font/google";
 
 const display = Bodoni_Moda({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display-face", display: "swap" });
@@ -29,7 +29,7 @@ const body = Manrope({ subsets: ["latin"], weight: ["400", "500", "600"], variab
     home: "AtelierHome",
     from: "@/components/concepts/atelier/HomePage",
     title: "The Modern Atelier",
-    description: "A minimal cream boutique presentation of Diksha Jewellers in Vidyadhar Nagar, Jaipur.",
+    description: "A minimal cream boutique presentation of Jewellery Store Sample in Vidyadhar Nagar, Jaipur.",
     fonts: `import { Figtree, Newsreader } from "next/font/google";
 
 const display = Newsreader({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display-face", display: "swap" });
@@ -40,7 +40,7 @@ const body = Figtree({ subsets: ["latin"], weight: ["400", "500", "600"], variab
     home: "HeritageHome",
     from: "@/components/concepts/heritage/HomePage",
     title: "The Heritage Collection",
-    description: "A burgundy and antique-gold presentation of Diksha Jewellers, Jaipur, with bridal and traditional jewellery studies.",
+    description: "A burgundy and antique-gold presentation of Jewellery Store Sample, Jaipur, with bridal and traditional jewellery studies.",
     fonts: `import { Fraunces, Source_Sans_3 } from "next/font/google";
 
 const display = Fraunces({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display-face", display: "swap" });
@@ -101,7 +101,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Collections",
-  description: "Sample jewellery collections for Diksha Jewellers, Vidyadhar Nagar, Jaipur. Gold, silver, diamond, bridal and more.",
+  description: "Sample jewellery collections for Jewellery Store Sample, Vidyadhar Nagar, Jaipur. Gold, silver, diamond, bridal and more.",
   path: "/${concept.id}/collections",
 });
 
@@ -129,7 +129,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const collection = getCollection(slug);
   return pageMeta({
     title: collection?.name ?? "Collection",
-    description: collection?.intro ?? "A jewellery collection at Diksha Jewellers, Jaipur.",
+    description: collection?.intro ?? "A jewellery collection at Jewellery Store Sample, Jaipur.",
     path: \`/${concept.id}/collections/\${slug}\`,
   });
 }
@@ -159,7 +159,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct(slug);
   return pageMeta({
     title: product?.name ?? "Jewellery",
-    description: product?.summary ?? "Sample jewellery at Diksha Jewellers, Jaipur.",
+    description: product?.summary ?? "Sample jewellery at Jewellery Store Sample, Jaipur.",
     path: \`/${concept.id}/product/\${slug}\`,
   });
 }
@@ -179,7 +179,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Discover Every Angle",
-  description: "Explore the details, craftsmanship and beauty of every piece at Diksha Jewellers, Jaipur.",
+  description: "Explore the details, craftsmanship and beauty of every piece at Jewellery Store Sample, Jaipur.",
   path: "/${concept.id}/experience-360",
 });
 
@@ -227,7 +227,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "About",
-  description: "An appreciation for beauty, detail and timeless jewellery at Diksha Jewellers, Vidyadhar Nagar, Jaipur.",
+  description: "An appreciation for beauty, detail and timeless jewellery at Jewellery Store Sample, Vidyadhar Nagar, Jaipur.",
   path: "/${concept.id}/about",
 });
 
@@ -245,7 +245,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Contact",
-  description: "Visit Diksha Jewellers at B-66, LS Nagar Road, Vidyadhar Nagar, Jaipur. Call +91 99292 75335 or request an appointment on WhatsApp.",
+  description: "Visit Jewellery Store Sample at B-66, LS Nagar Road, Vidyadhar Nagar, Jaipur. Call +91 99292 75335 or request an appointment on WhatsApp.",
   path: "/${concept.id}/contact",
 });
 
@@ -264,7 +264,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Search",
-  description: "Search the sample jewellery catalogue for Diksha Jewellers, Jaipur.",
+  description: "Search the sample jewellery catalogue for Jewellery Store Sample, Jaipur.",
   path: "/${concept.id}/search",
 });
 

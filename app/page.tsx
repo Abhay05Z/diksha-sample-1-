@@ -21,7 +21,7 @@ export default function HomePage() {
   return (
     <div id="content" className={`index-page ${display.variable} ${body.variable}`} style={{ fontFamily: "var(--font-jost), sans-serif" }}>
       <main className="wrap flex min-h-screen flex-col justify-center py-16">
-        <p className="m-0 text-xs tracking-[0.28em] text-[#c5a46d]">DIKSHA JEWELLERS · JAIPUR</p>
+        <p className="m-0 text-xs tracking-[0.28em] text-[#c5a46d]">JEWELLERY STORE SAMPLE · JAIPUR</p>
         <h1 className="m-0 mt-4 max-w-3xl text-5xl leading-none md:text-7xl">Which concept would you like to see?</h1>
         <p className="mt-5 max-w-xl text-[#d9d0c6]">Pick one. You can switch to another at any time from the bar on the page.</p>
         <div className="mt-10 grid gap-4 md:grid-cols-2">

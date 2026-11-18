@@ -7,7 +7,7 @@ export function LocalBusinessJsonLd() {
     "@type": "JewelryStore",
     name: business.name,
     description:
-      "Diksha Jewellers is a jewellery showroom in Vidyadhar Nagar, Jaipur, with gold, silver and diamond jewellery.",
+      "Jewellery Store Sample is a jewellery showroom in Vidyadhar Nagar, Jaipur, with gold, silver and diamond jewellery.",
     telephone: business.phoneTel,
     url: business.siteUrl,
     hasMap: business.mapsShare,

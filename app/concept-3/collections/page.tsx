@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Collections",
-  description: "Sample jewellery collections for Diksha Jewellers, Vidyadhar Nagar, Jaipur. Gold, silver, diamond, bridal and more.",
+  description: "Sample jewellery collections for Jewellery Store Sample, Vidyadhar Nagar, Jaipur. Gold, silver, diamond, bridal and more.",
   path: "/concept-3/collections",
 });
 

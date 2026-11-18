@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Discover Every Angle",
-  description: "Explore the details, craftsmanship and beauty of every piece at Diksha Jewellers, Jaipur.",
+  description: "Explore the details, craftsmanship and beauty of every piece at Jewellery Store Sample, Jaipur.",
   path: "/concept-4/experience-360",
 });
 

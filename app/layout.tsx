@@ -6,15 +6,15 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(business.siteUrl),
   title: {
-    default: "Diksha Jewellers, Jaipur",
-    template: "%s · Diksha Jewellers",
+    default: "Jewellery Store Sample, Jaipur",
+    template: "%s · Jewellery Store Sample",
   },
   description:
-    "Diksha Jewellers is a jewellery showroom in Vidyadhar Nagar, Jaipur, for gold, silver and diamond jewellery. Visit B-66, LS Nagar Road, near Biyani Group of College.",
-  applicationName: "Diksha Jewellers",
+    "Jewellery Store Sample is a jewellery showroom in Vidyadhar Nagar, Jaipur, for gold, silver and diamond jewellery. Visit B-66, LS Nagar Road, near Biyani Group of College.",
+  applicationName: "Jewellery Store Sample",
   icons: { icon: business.logo.favicon },
   openGraph: {
-    siteName: "Diksha Jewellers",
+    siteName: "Jewellery Store Sample",
     locale: "en_IN",
     type: "website",
   },

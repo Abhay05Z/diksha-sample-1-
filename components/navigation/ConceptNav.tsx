@@ -63,7 +63,7 @@ export function ConceptNav({ concept }: { concept: ConceptId }) {
       ) : null}
       <header className={`site-header ${solid ? "is-solid" : ""}`}>
         <div className="wrap header-inner" style={{ position: "relative" }}>
-          <Link href={conceptPath(concept)} aria-label="Diksha Jewellers home">
+          <Link href={conceptPath(concept)} aria-label="Jewellery Store Sample home">
             <Wordmark />
           </Link>
           <nav className="nav-links" aria-label="Primary">

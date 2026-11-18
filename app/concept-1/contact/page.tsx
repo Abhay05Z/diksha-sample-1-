@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Contact",
-  description: "Visit Diksha Jewellers at B-66, LS Nagar Road, Vidyadhar Nagar, Jaipur. Call +91 99292 75335 or request an appointment on WhatsApp.",
+  description: "Visit Jewellery Store Sample at B-66, LS Nagar Road, Vidyadhar Nagar, Jaipur. Call +91 99292 75335 or request an appointment on WhatsApp.",
   path: "/concept-1/contact",
 });
 

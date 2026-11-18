@@ -5,14 +5,14 @@ export function Wordmark() {
     return (
       // Official logo slot. Swap the files in business.ts when the real mark arrives.
       // eslint-disable-next-line @next/next/no-img-element
-      <img src={business.logo.dark} alt="Diksha Jewellers" style={{ height: 42, width: "auto" }} />
+      <img src={business.logo.dark} alt="Jewellery Store Sample" style={{ height: 42, width: "auto" }} />
     );
   }
 
   return (
     <span className="wordmark">
-      <b>Diksha</b>
-      <span>Jewellers</span>
+      <b>Sample</b>
+      <span>Store</span>
     </span>
   );
 }

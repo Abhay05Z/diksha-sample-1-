@@ -13,7 +13,7 @@ export function AboutPage({ concept }: { concept: ConceptId }) {
         <p className="label">{theme.name}</p>
         <h1 className="font-display text-5xl md:text-6xl">An Appreciation for Beauty, Detail and Timeless Jewellery.</h1>
         <p className="text-lg leading-relaxed">
-          Diksha Jewellers is a jewellery showroom in Vidyadhar Nagar, Jaipur. People come to look at gold, silver and diamond jewellery, and to take the time a piece deserves.
+          Jewellery Store Sample is a jewellery showroom in Vidyadhar Nagar, Jaipur. People come to look at gold, silver and diamond jewellery, and to take the time a piece deserves.
         </p>
         <p className="leading-relaxed">
           The visit is personal. You can compare designs, ask what is available, and decide in the room rather than through a checkout. This website introduces that visit. It does not take payment, and it does not invent a history for the house.

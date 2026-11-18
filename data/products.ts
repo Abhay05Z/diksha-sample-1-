@@ -1,7 +1,7 @@
 /**
  * SAMPLE CATALOGUE
  * Every product below uses licensed stock photography.
- * Nothing here is confirmed Diksha Jewellers inventory.
+ * Nothing here is confirmed Jewellery Store Sample inventory.
  * Prices, karat, weight and diamond grades are intentionally absent.
  * Replace images, names and codes when the showroom supplies its own pieces.
  */
@@ -34,7 +34,7 @@ export const products: Product[] = [
     code: "SAMPLE-RG-01",
     summary: "A gold solitaire study on a quiet white ground.",
     description:
-      "A sample photograph of a solitaire ring, used to show how a ring can be presented on the website. Metal purity, carat weight and availability are not stated, because they have not been verified for Diksha Jewellers.",
+      "A sample photograph of a solitaire ring, used to show how a ring can be presented on the website. Metal purity, carat weight and availability are not stated, because they have not been verified for Jewellery Store Sample.",
     collections: ["rings", "diamond", "statement"],
     material: "Diamond jewellery",
     featured: true,
@@ -111,7 +111,7 @@ export const products: Product[] = [
     code: "SAMPLE-BR-02",
     summary: "An Indian bridal set in a lighter setting.",
     description:
-      "A second bridal study from Ahmedabad photography, used only as a sample. It is not Diksha Jewellers stock.",
+      "A second bridal study from Ahmedabad photography, used only as a sample. It is not Jewellery Store Sample stock.",
     collections: ["bridal", "necklace-sets", "earrings", "statement"],
     material: "Bridal jewellery",
     sequenceId: "demo-necklace",
@@ -149,7 +149,7 @@ export const products: Product[] = [
     code: "SAMPLE-SV-01",
     summary: "A white-metal set on black. The photograph’s source describes it as silver.",
     description:
-      "Sample photography for the silver edit: necklace, earrings, ring and bracelet in a white metal with stones. It is not a verified Diksha Jewellers piece, and no purity is stated.",
+      "Sample photography for the silver edit: necklace, earrings, ring and bracelet in a white metal with stones. It is not a verified Jewellery Store Sample piece, and no purity is stated.",
     collections: ["silver", "necklace-sets", "earrings", "bracelets"],
     material: "Silver jewellery",
     featured: true,
@@ -187,7 +187,7 @@ export const products: Product[] = [
     code: "SAMPLE-KN-01",
     summary: "A kundan necklace and earrings with blue stones.",
     description:
-      "Licensed sample photography of a kundan set. It is not presented as a Diksha Jewellers design, and it is not described as certified.",
+      "Licensed sample photography of a kundan set. It is not presented as a Jewellery Store Sample design, and it is not described as certified.",
     collections: ["kundan", "necklace-sets", "earrings", "statement"],
     material: "Kundan jewellery",
     images: [{ src: "/assets/products/kundan-set.webp", alt: "Sample kundan necklace and earrings with blue stones." }],

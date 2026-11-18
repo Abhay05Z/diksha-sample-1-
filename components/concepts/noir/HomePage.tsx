@@ -16,7 +16,7 @@ export function NoirHome() {
     <div className="bg-[#0e0e0e] text-[#f4f0e8]">
       <header className="flex items-center justify-between px-5 py-4 md:px-8">
         <Link href={conceptPath(concept)} className="font-display text-2xl tracking-[0.22em]">
-          DIKSHA
+          SAMPLE
         </Link>
         <nav className="hidden gap-6 text-[0.68rem] tracking-[0.2em] md:flex">
           <Link href={conceptPath(concept, "/collections/diamond")}>Diamond</Link>

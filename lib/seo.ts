@@ -11,7 +11,7 @@ export function pageMeta({
   path: string;
 }): Metadata {
   const url = `${business.siteUrl}${path}`;
-  const fullTitle = `${title} · Diksha Jewellers`;
+  const fullTitle = `${title} · Jewellery Store Sample`;
   return {
     title,
     description,
@@ -20,7 +20,7 @@ export function pageMeta({
       title: fullTitle,
       description,
       url,
-      siteName: "Diksha Jewellers",
+      siteName: "Jewellery Store Sample",
       locale: "en_IN",
       type: "website",
     },

@@ -63,7 +63,7 @@ export function ConceptFooter({ concept }: { concept: ConceptId }) {
         <p>
           Temporary wordmark, until the official logo is supplied. Jewellery photographs are licensed samples, not showroom inventory. No online checkout. Listed Google rating {business.rating.value} from {business.rating.count} reviews, {business.rating.note.toLowerCase()}
         </p>
-        <p>© {new Date().getFullYear()} Diksha Jewellers, Jaipur.</p>
+        <p>© {new Date().getFullYear()} Jewellery Store Sample, Jaipur.</p>
       </div>
     </footer>
   );

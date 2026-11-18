@@ -5,7 +5,7 @@
  * unless the client confirms them. Directory listings disagree and were not used.
  */
 export const business = {
-  name: "Diksha Jewellers",
+  name: "Jewellery Store Sample",
   category: "Jewellery showroom",
   phoneDisplay: "+91 99292 75335",
   phoneTel: "+919929275335",
@@ -16,7 +16,7 @@ export const business = {
    */
   enquiryEmail: "dikshajewellers4you@gmail.com",
   /** No official Instagram profile was found. The button searches for one until a URL is added. */
-  instagramUrl: "https://www.google.com/search?q=Diksha+Jewellers+Jaipur+Instagram",
+  instagramUrl: "https://www.google.com/search?q=Jewellery+Store+Sample+Jaipur+Instagram",
   address: {
     line1: "B-66, LS Nagar Road",
     line2: "Near Biyani Group of College",
@@ -41,9 +41,9 @@ export const business = {
   },
   mapsShare: "https://share.google/TBnfnM9TbVxmR7Leu",
   mapsDirections:
-    "https://www.google.com/maps/search/?api=1&query=Diksha%20Jewellers%20B-66%20LS%20Nagar%20Road%20Vidyadhar%20Nagar%20Jaipur%20302039",
+    "https://www.google.com/maps/search/?api=1&query=Jewellery%20Store%20Sample%20B-66%20LS%20Nagar%20Road%20Vidyadhar%20Nagar%20Jaipur%20302039",
   mapsEmbed:
-    "https://maps.google.com/maps?q=Diksha%20Jewellers%2C%20B-66%20LS%20Nagar%20Road%2C%20Vidyadhar%20Nagar%2C%20Jaipur%20302039&z=16&output=embed",
+    "https://maps.google.com/maps?q=Jewellery%20Store%20Sample%2C%20B-66%20LS%20Nagar%20Road%2C%20Vidyadhar%20Nagar%2C%20Jaipur%20302039&z=16&output=embed",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   logo: {
     temporary: true,

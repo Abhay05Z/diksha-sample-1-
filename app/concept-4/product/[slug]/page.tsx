@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct(slug);
   return pageMeta({
     title: product?.name ?? "Jewellery",
-    description: product?.summary ?? "Sample jewellery at Diksha Jewellers, Jaipur.",
+    description: product?.summary ?? "Sample jewellery at Jewellery Store Sample, Jaipur.",
     path: `/concept-4/product/${slug}`,
   });
 }

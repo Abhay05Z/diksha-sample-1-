@@ -6,11 +6,11 @@ export function whatsappHref(message: string) {
 
 export function productEnquiry(name: string, code?: string) {
   const codeLine = code ? ` (sample code ${code})` : "";
-  return `Hello Diksha Jewellers, I am interested in your ${name}${codeLine}. Please share more details and availability.`;
+  return `Hello Jewellery Store Sample, I am interested in your ${name}${codeLine}. Please share more details and availability.`;
 }
 
 export function collectionEnquiry(name: string) {
-  return `Hello Diksha Jewellers, I am interested in your ${name} collection. Please share what is currently available at the showroom.`;
+  return `Hello Jewellery Store Sample, I am interested in your ${name} collection. Please share what is currently available at the showroom.`;
 }
 
 export function appointmentEnquiry(fields: {
@@ -22,7 +22,7 @@ export function appointmentEnquiry(fields: {
   message: string;
 }) {
   const lines = [
-    "Hello Diksha Jewellers, I would like to request a showroom appointment.",
+    "Hello Jewellery Store Sample, I would like to request a showroom appointment.",
     `Name: ${fields.name}`,
     `Phone: ${fields.phone}`,
     `Preferred date: ${fields.date}`,
@@ -34,12 +34,12 @@ export function appointmentEnquiry(fields: {
   return lines.join("\n");
 }
 
-export const generalEnquiry = "Hello Diksha Jewellers, I would like to know more about the jewellery available at your Vidyadhar Nagar showroom.";
+export const generalEnquiry = "Hello Jewellery Store Sample, I would like to know more about the jewellery available at your Vidyadhar Nagar showroom.";
 
 export function quoteEnquiry(fields: { name: string; phone: string; interest: string; quotation?: boolean }) {
   const ask = fields.quotation ? "I would like a quotation." : "I would like to know more.";
   return [
-    "Hello Diksha Jewellers,",
+    "Hello Jewellery Store Sample,",
     ask,
     `Name: ${fields.name}`,
     `Phone: ${fields.phone}`,

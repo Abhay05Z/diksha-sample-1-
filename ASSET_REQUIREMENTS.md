@@ -1,17 +1,17 @@
-# Asset requirements — Diksha Jewellers
+# Asset requirements — Jewellery Store Sample
 
 Public research was done before this preview was built. The site uses the address, phone, hours, Google rating and map link supplied for the showroom. It does not use conflicting directory claims.
 
 ## Found and downloaded
 
-- 22 jewellery photographs from Pexels, under the Pexels License (commercial use is allowed; attribution is not required). They are sample studies, not Diksha Jewellers stock. Sources are listed in `data/asset-manifest.json`.
+- 22 jewellery photographs from Pexels, under the Pexels License (commercial use is allowed; attribution is not required). They are sample studies, not Jewellery Store Sample stock. Sources are listed in `data/asset-manifest.json`.
 - One CC0 gold-ring GLB from Grab3D (`public/assets/360/glb/demo-gold-ring.glb`). It is a small stylised model, not a showroom piece.
 - 72 generated frames for a ring and 72 for a necklace, so the drag-to-rotate viewer works before real photography exists.
 
 ## Not found
 
 - An official logo.
-- A photograph that can honestly be called the Diksha Jewellers showroom, counter or entrance.
+- A photograph that can honestly be called the Jewellery Store Sample showroom, counter or entrance.
 - Product photographs that belong to this shop.
 - A real 360° photograph sequence of a jewellery piece under a licence that could be downloaded.
 - Unsplash files were requested and returned HTTP 401, so they were not used.
@@ -22,7 +22,7 @@ These appeared in public directories and were not treated as verified:
 
 - A founding year of 1985, and the name Sumit Soni, on TradeIndia.
 - The name Mahesh Soni on IndiaMART, and a GST record at a different address (B-111, Chetak Marg, Jaipur 302023).
-- A place-index pin code of 302049, and the email dikshajewellers4you@gmail.com.
+- A conflicting pin code on one public listing, and an unverified email address.
 - A wholesale silver-earring price.
 - A numeric Facebook link that could not be checked as the official page.
 

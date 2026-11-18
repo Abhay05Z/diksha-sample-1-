@@ -61,7 +61,7 @@ export function WelcomePopup({
     const body = quoteEnquiry({ name: name.trim(), phone: phone.trim(), interest, quotation });
     const url = kind === "whatsapp" ? whatsappHref(body) : gmailHref(quotation ? "Quotation request" : "Jewellery enquiry", body);
     window.open(url, "_blank", "noopener,noreferrer");
-    sessionStorage.setItem("diksha-welcome", "sent");
+    sessionStorage.setItem("sample-welcome", "sent");
     onClose();
   }
 
@@ -78,7 +78,7 @@ export function WelcomePopup({
           send("whatsapp");
         }}
       >
-        <p className="label">Diksha Jewellers · Jaipur</p>
+        <p className="label">Jewellery Store Sample · Jaipur</p>
         <h2 id="welcome-title" className="font-display">
           {quotation ? "Get a quotation" : "Tell us what you are looking for"}
         </h2>

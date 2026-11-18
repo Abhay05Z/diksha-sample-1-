@@ -45,7 +45,7 @@ export function SiteChrome({
   }, []);
 
   useEffect(() => {
-    if (sessionStorage.getItem("diksha-welcome")) return;
+    if (sessionStorage.getItem("sample-welcome")) return;
     const timer = window.setTimeout(() => setWelcome(true), 700);
     return () => window.clearTimeout(timer);
   }, []);
@@ -100,7 +100,7 @@ export function SiteChrome({
           onClose={() => {
             setWelcome(false);
             setQuote(false);
-            if (!sessionStorage.getItem("diksha-welcome")) sessionStorage.setItem("diksha-welcome", "closed");
+            if (!sessionStorage.getItem("sample-welcome")) sessionStorage.setItem("sample-welcome", "closed");
           }}
         />
       </SmoothScroll>
