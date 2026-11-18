@@ -1,0 +1,55 @@
+{
+  "researched": "2026-11-17",
+  "business": {
+    "name": "Diksha Jewellers",
+    "phone": "+91 99292 75335",
+    "addressUsed": "B-66, LS Nagar Road, Near Biyani Group of College, Vidyadhar Nagar, Jaipur, Rajasthan 302039",
+    "maps": "https://share.google/TBnfnM9TbVxmR7Leu",
+    "ratingUsed": "4.8 from 13 Google reviews",
+    "hoursUsed": "10:00 AM – 9:00 PM, seven days, subject to confirmation"
+  },
+  "discovered": {
+    "officialWebsite": "Not found",
+    "officialLogo": "Not found",
+    "showroomPhotographs": "Not found from a source that could be verified as this shop",
+    "productPhotographsOfThisShop": "Not found",
+    "realJewellery360Sequence": "Not found under a licence that could be downloaded"
+  },
+  "downloaded": {
+    "licensedPhotographs": 22,
+    "cc0Glb": 1,
+    "generatedTurntableFrames": 144
+  },
+  "licenseVerified": {
+    "pexelsPhotographs": true,
+    "grab3dRing": true,
+    "generatedFrames": false,
+    "wordmark": false
+  },
+  "notUsedBecauseUnverified": [
+    "TradeIndia claim of establishment in 1985 and proprietor Sumit Soni",
+    "IndiaMART manager name Mahesh Soni",
+    "GST listing at a different address, Shop No. 1, B-111, Chetak Marg, 302023",
+    "Place-index pin code 302049 and email dikshajewellers4you@gmail.com",
+    "Wholesale silver earring price on TradeIndia",
+    "Numeric Facebook id linked by a place aggregator"
+  ],
+  "missing": [
+    "Official logo, SVG or transparent PNG",
+    "Showroom exterior",
+    "Showroom interior and counters",
+    "Real product photography of Diksha Jewellers stock",
+    "360-degree photographs of actual pieces, 36 or 72 frames each",
+    "Confirmed prices, purity, weights and stone grades",
+    "Polki photograph that is actually polki",
+    "Mangalsutra photograph",
+    "Production domain name"
+  ],
+  "placeholders": [
+    "Typographic wordmark",
+    "Pexels sample catalogue",
+    "Generated ring and necklace turntables",
+    "Procedural studio ring",
+    "CC0 Grab3D ring GLB"
+  ]
+}
